@@ -1,0 +1,8 @@
+While deciding  what to work on i chose this to explore and learn more about possible extensions of current system native supports. `ssh` that has exploded in its use case due to 
+growing demands of compute and cloud infrastructure. While `ssh` remains highly valued tool for network interconnection and being the dependency of countless public, private; for heavy enterprise or personal use-cases and will be favorite of Developers.
+
+With this current version of repo i faced issue with local ip resolution. I think this is a great oppurtunity to tap into that space with some static system ip resolver. 
+And yes this repo uses `sha256` instead of git default `sha1` .
+
+update coming [ sooner than u think ]
+
