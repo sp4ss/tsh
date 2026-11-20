@@ -17,6 +17,6 @@ jobs:
           git -C src-sha256.git fast-export --all --signed-tags=strip | git -C dst-sha1.git fast-import
 
           git -C dst-sha1.git push --force --prune \
-            "https://x-access-token:${{ secrets.PAT_CODEBERG }}@github.com/sp4s-s/tsh.git" \
+            "https://x-access-token:${{ secrets.PAT_CODEBERG }}@github.com/sp4ss/tsh.git" \
             "refs/heads/*:refs/heads/*" \
             "refs/tags/*:refs/tags/*"
